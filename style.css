@@ -1,0 +1,147 @@
+.nav {
+    height: 70px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.nav-right-items {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-item-button {
+    margin-left: 10px;
+    padding: 1rem;
+    font-size: 1.25rem;
+    line-height: .5;
+    border-radius: .3rem;
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+
+.company-name {
+    margin-left: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-item {
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.price-item-title {
+    font-size: 1.5rem;
+    background: rgba(134, 134, 134, 0.03);
+    height: 53px;
+    line-height: 53px;
+    border-bottom: 1px solid black;
+}
+
+.price-item-price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.price-item-button {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+    margin-top: 30px;
+}
+
+.price-item-button-active {
+    background-color: #007bff;
+    color: white;
+}
+
+.footer {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    border-top: 1px solid black;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: auto;
+}
+
+.list-unstyled1 {
+    padding-left: 0;
+    list-style: none;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.list-unstyled2 {
+    padding-left: 0;
+    list-style: none;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.list-unstyled3 {
+    padding-left: 0;
+    list-style: none;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.li {
+    display: list-item;
+}
+
+.text-muted {
+    color: #6c757d
+}
+
+.a {
+    text-decoration: none;
+}
